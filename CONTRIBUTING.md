@@ -1,75 +1,58 @@
-# Contributing to Awesome webOS
+# Contributing
 
-Thanks for helping improve **Awesome webOS**! Contributions should make useful webOS resources easier to discover and evaluate.
+Thanks for helping improve Awesome WebOS.
+
+This list is a **curation, not a collection**. Add only resources that are genuinely useful, relevant to LG webOS TVs, and supported by enough evidence to recommend them. It is better to leave out a questionable item than to include it without verification.
 
 ## What belongs here?
 
-Useful additions include:
+- Useful webOS TV applications and homebrew tools.
+- Alternative launchers and home-screen projects.
+- Device-management, rooting, and recovery resources.
+- Privacy and network-filtering tools.
+- Developer tools, SDKs, APIs, and documentation.
 
-- LG webOS TV applications and homebrew packages
-- Alternative launchers and home-screen projects
-- Rooting, recovery, and device-management tools
-- Privacy, network-filtering, and debloating resources
-- Developer tools, SDKs, APIs, and documentation
-- Troubleshooting guides and community-maintained reference lists
+## Before opening a pull request
 
-## Before submitting
-
-Please check that:
-
-1. The link is publicly accessible and points to the intended project or documentation.
-2. The resource is relevant to LG webOS TVs or webOS development.
-3. The entry is not already listed.
-4. The description is short, neutral, and based on the project's documentation.
-5. Compatibility and root requirements are not guessed. Use `Unknown` or omit them when they have not been verified.
-6. The project is not presented as safe, supported, or actively maintained without evidence.
+1. Confirm that the resource is relevant to LG webOS TVs.
+2. Open the link and verify that it points to the canonical project or documentation.
+3. Read the documentation and assess whether you can personally recommend the resource.
+4. Check for duplicates, archived repositories, deprecated projects, and missing documentation.
+5. Keep descriptions objective, concise, grammatically correct, and useful to readers.
+6. Do not guess compatibility, root requirements, security properties, or maintenance status.
+7. Credit the person who shared a link when that attribution is known. A Reddit username means the person shared or recommended the link; it does not imply authorship or ownership.
 
 ## Entry format
 
-The README currently uses tables with these columns:
+Use a Markdown list entry with a title-cased project name, a dash, and a description that starts with an uppercase letter and ends with a period.
 
-| Project | Description | Source |
-| --- | --- | --- |
-| [Project name](https://example.com) | One concise, factual sentence. | [u/RedditUsername](https://www.reddit.com/user/RedditUsername/) |
+```md
+- [Project Name](https://example.com) - A concise description of what the project does.
+```
 
-Use the original discussion or contributor as the source when known. A Reddit username in the **Source** column means the user shared or recommended the link; it does **not** imply that they created, own, or maintain the project.
-
-For resources discovered outside Reddit, use an appropriate project, organization, or documentation link as the source, or propose a separate `Source` convention in your pull request.
+When relevant, add a source attribution link after the description. Keep the formatting consistent with existing entries.
 
 ## Pull request checklist
 
-- [ ] The resource is relevant to webOS.
-- [ ] The link works and points to the correct project.
-- [ ] The description is concise and factual.
-- [ ] The entry is in the most relevant category.
-- [ ] Duplicate entries have been avoided, or the duplicate provides a clearly different use.
-- [ ] Any compatibility or root claims are supported by documentation.
-- [ ] The source is credited accurately.
+- [ ] The resource is relevant to LG webOS TVs.
+- [ ] I checked the link and the project's documentation.
+- [ ] The resource is not a duplicate.
+- [ ] The description is factual, concise, starts with an uppercase letter, and ends with a period.
+- [ ] The entry is in the most appropriate category.
+- [ ] Compatibility and root requirements are only stated when supported by evidence.
+- [ ] Attribution is accurate and does not imply that the person who shared the link created the project.
+- [ ] I reviewed the rendered Markdown for formatting issues.
 
-## Compatibility notes
+## Compatibility and maintenance
 
-When relevant and verified, include details such as:
+Where evidence is available, mention the specific TV model, webOS version, firmware, installation method, and root requirement. Do not imply that a project works on every TV. If a project is archived, deprecated, or lacks essential documentation, do not add it to the main list; raise an issue for discussion instead.
 
-- TV model or model family
-- webOS version or firmware version
-- Root required: `Yes`, `No`, or `Unknown`
-- Project status: `Active`, `Inactive`, or `Unknown`
-- Installation and recovery documentation
-
-Keep the README concise. Longer testing notes belong in the project's own documentation or a linked compatibility guide.
-
-## Style guidelines
+## Style
 
 - Use English for consistency.
-- Use official project names and canonical URLs.
-- Keep descriptions to one sentence where possible.
-- Avoid promotional wording, unsupported claims, and subjective rankings.
-- Prefer stable project links over temporary download links.
+- Use canonical project links and official project names.
+- Avoid promotional claims, rankings, and unsupported superlatives.
 - Do not add tracking parameters to URLs.
-- Mark archived or unmaintained projects clearly when that status can be verified.
-
-## Reporting a broken or outdated link
-
-Open an issue with the resource name, the affected URL, and any replacement link or relevant compatibility update. Please do not infer that a project is abandoned solely because it has not had a recent release.
+- Prefer a short description that explains why the resource is useful.
 
 Thank you for contributing!
