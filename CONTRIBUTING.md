@@ -2,7 +2,7 @@
 
 Thanks for helping improve Awesome WebOS.
 
-This list is a **curation, not a collection**. Add only resources that are genuinely useful, relevant to LG webOS TVs, and supported by enough evidence to recommend them. It is better to leave out a questionable item than to include it without verification.
+This list is a **curation, not a collection**. Add only resources that are genuinely useful, relevant to webOS TVs, and supported by enough evidence to recommend them. It is better to leave out a questionable item than to include it without verification.
 
 ## What belongs here?
 
@@ -14,7 +14,7 @@ This list is a **curation, not a collection**. Add only resources that are genui
 
 ## Before opening a pull request
 
-1. Confirm that the resource is relevant to LG webOS TVs.
+1. Confirm that the resource is relevant to webOS TVs.
 2. Open the link and verify that it points to the canonical project or documentation.
 3. Read the documentation and assess whether you can personally recommend the resource.
 4. Check for duplicates, archived repositories, deprecated projects, and missing documentation.
@@ -34,7 +34,7 @@ When relevant, add a source attribution link after the description. Keep the for
 
 ## Pull request checklist
 
-- [ ] The resource is relevant to LG webOS TVs.
+- [ ] The resource is relevant to webOS TVs.
 - [ ] I checked the link and the project's documentation.
 - [ ] The resource is not a duplicate.
 - [ ] The description is factual, concise, starts with an uppercase letter, and ends with a period.
