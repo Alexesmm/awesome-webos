@@ -66,7 +66,7 @@
 - [OpenLauncher](https://github.com/Shantil-K/OpenLauncher) - A customizable launcher with folders, video wallpapers, widgets, and remote-friendly navigation; requires webOS 6 or newer and elevated trust or root for some features.
 - [webOS Custom Home](https://github.com/zzeppieri/webos-custom-home) - An ad-free custom home screen for rooted LG webOS TVs with app and input discovery, widgets, and startup options.
 - [Custom Home Screen for LGTVs](https://github.com/ipatek420/Lumen-Launcher) - An ad-free custom home screen for LG TVs. ([Shared by @king_davion1 on X](https://x.com/king_davion1/status/2114383778525200589))
-
+- [webOS Homebar](https://github.com/rawinek/webos-homebar) - Homebar: the home screen as a bar over the picture, not a full-screen menu, for rooted LG webOS TVs. ([Shared by u/rawinek on Reddit](https://www.reddit.com/r/webos/s/0jwThGupPO))
 
 ## Rooting and Recovery
 
