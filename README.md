@@ -14,7 +14,6 @@
   - [Ambilight and Lighting](#ambilight-and-lighting)
   - [Remote Control](#remote-control)
   - [Community](#community)
-- [Contributing](#contributing)
 
 ## Getting started
 
