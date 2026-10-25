@@ -38,6 +38,7 @@
 - [Subsonic Player](https://repo.webosbrew.org/apps/com.subsonic.player/) — web-based music player for webOS.
 - [Nuvio Native Legacy](https://github.com/iqui27/nuvio-native-legacy) - A native media application project for webOS. ([Shared by u/weriksos](https://www.reddit.com/user/weriksos/))
 - [Bili webOS](https://github.com/asdf17128/bili-webos) - An open-source Bilibili client for LG webOS TVs, with video playback and community-oriented features.
+- [stremcompat](https://github.com/Alexesmm/stremcompat-lg-webos) - Unofficial Stremio compatibility client for older ARMv7 LG webOS 3.x and 4.x TVs.
 
 ### Games and game streaming
 
