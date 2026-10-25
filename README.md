@@ -65,6 +65,7 @@
 - [Lumen webOS fork](https://github.com/braunglasrakete/lumen-webos) - A community fork of Lumen with changes to its dock and configurable interface features. ([Shared by u/Babada-Boopey929](https://www.reddit.com/user/Babada-Boopey929/))
 - [OpenLauncher](https://github.com/Shantil-K/OpenLauncher) - A customizable launcher with folders, video wallpapers, widgets, and remote-friendly navigation; requires webOS 6 or newer and elevated trust or root for some features.
 - [webOS Custom Home](https://github.com/zzeppieri/webos-custom-home) - An ad-free custom home screen for rooted LG webOS TVs with app and input discovery, widgets, and startup options.
+- [Custom Home Screen for LGTVs](https://github.com/ipatek420/Lumen-Launcher) - An ad-free custom home screen for LG TVs. ([Shared by @king_davion1 on X](https://x.com/king_davion1/status/2114383778525200589))
 
 
 ## Rooting and Recovery
