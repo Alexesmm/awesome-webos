@@ -39,6 +39,9 @@
 - [Nuvio Native Legacy](https://github.com/iqui27/nuvio-native-legacy) - A native media application project for webOS. ([Shared by u/weriksos](https://www.reddit.com/user/weriksos/))
 - [Bili webOS](https://github.com/asdf17128/bili-webos) - An open-source Bilibili client for LG webOS TVs, with video playback and community-oriented features.
 - [stremcompat](https://github.com/Alexesmm/stremcompat-lg-webos) - Unofficial Stremio compatibility client for older ARMv7 LG webOS 3.x and 4.x TVs.
+- [Prosper LG TV](https://github.com/pustal/ProsperLGTV) - An IPTV player for LG webOS TVs that is a webOS adaptation of [ProsperoTV](https://github.com/blackbearreloaded/ProsperoTV). Like the original, designed around [iptv-org](https://github.com/iptv-org/iptv), but unlike Prospero TV, comes without any links to it - it plays the M3U playlists you add, is built for the remote, and is careful with the TV's small storage. Tested on an C1 TV with WebOS 6.4 via WebOS Dev Manager and Homebrew Channel install (through [pustal's repo](https://github.com/pustal/webos-repo) addition). Compatible with webOS 4.0 (Chromium 53) or newer. No root required.
+- [StashWebOS](https://github.com/pustal/StashWebOS) - A stash client for WebOS, made for the remote and careful with the TV's small storage. Tested on an C1 TV with WebOS 6.4 via WebOS Dev Manager and Homebrew Channel install (through [pustal's repo](https://github.com/pustal/webos-repo) addition). Compatible with webOS 4.0 (Chromium 53) or newer. No root required.
+- [Malagueta](https://github.com/pustal/Malagueta) - Adult website viewer for LG webOS TVs. Tested on an C1 TV with WebOS 6.4 via WebOS Dev Manager and Homebrew Channel install (through [pustal's repo](https://github.com/pustal/webos-repo) addition). The package installs on webOS 4.0 and newer; the compatibility layer is aimed at webOS 5 and 6 (Chromium 68/79). On webOS 4 (Chromium 53) many of today's sites will still fail. No root required.
 
 ### Games and game streaming
 
@@ -46,6 +49,7 @@
 - [Moonlight](https://repo.webosbrew.org/apps/com.limelight.webos/) — open-source NVIDIA GameStream client for streaming games to a webOS TV; supports up to four controllers according to its catalog listing.
 - [Fruit Ninja](https://repo.webosbrew.org/apps/com.halfbrick.fruitninja/) — unofficial webOS version of the arcade game.
 - [PocketVibe for webOS](https://github.com/tolgakurtuluss/pocketvibe-webos) — community webOS port of [PocketVibe](https://github.com/cobanov/pocketvibe), a launcher and collection of Three.js games. See the port's README for its current features, installation steps, and compatibility notes.
+- [SonicWebMania](https://github.com/pustal/SonicWebMania) - Sonic Mania for LG webOS TVs. Requires the user to own the game to provide the assets. Also launches a webserver in the back to make it user-friendly to upload the assets and manage save data (download and upload). Can be played (poorly) with the TV remote but compatible with connected gamepads. Tested on an C1 TV with WebOS 6.4 via WebOS Dev Manager and Homebrew Channel install (through [pustal's repo](https://github.com/pustal/webos-repo) addition) and with an Xbox One controller (XInput) connected via Bluetooth.  No root required.
 
 ### TV utilities
 
