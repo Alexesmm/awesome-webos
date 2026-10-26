@@ -187,6 +187,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 
 - [VNCServer](https://repo.webosbrew.org/apps/org.webosbrew.vncserver/) - VNC server for viewing and controlling the TV remotely.
 
+- [RustCouch](https://github.com/danzig666/webos-rustdesk-client) - RustDesk-compatible remote desktop client for controlling a Windows, Linux or macOS computer from the TV with the Magic Remote, on-screen keyboard or a USB/Bluetooth keyboard. Tested on an LG C3.
+![Stars](https://img.shields.io/github/stars/danzig666/webos-rustdesk-client?style=flat-square)
+
 - [Open Service Menu](https://repo.webosbrew.org/apps/com.open.hidden.menu/) - Opens the TV's hidden service menu.
 
 - [Sound Mode Fix](https://repo.webosbrew.org/apps/eu.depau.webos.soundmodefix/) - Fixes sound mode behavior on webOS TVs.
