@@ -53,18 +53,14 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [Jellyfin](https://github.com/jellyfin/jellyfin-webos) - webOS client for Jellyfin Server.
 ![Stars](https://img.shields.io/github/stars/jellyfin/jellyfin-webos?style=flat-square)
 
-
 - [Moonfin](https://github.com/Moonfin-Client/Smart-TV) - Enhanced Jellyfin client for LG webOS and Samsung Tizen TVs. Built with the Enact/Sandstone framework.
 ![Stars](https://img.shields.io/github/stars/Moonfin-Client/Smart-TV?style=flat-square)
-
 
 - [Litefin](https://github.com/MoazSalem/litefin) - High-performance Jellyfin client for LG webOS and Samsung Tizen TVs. Designed to run well even on older hardware.
 ![Stars](https://img.shields.io/github/stars/MoazSalem/litefin?style=flat-square)
 
-
 - [Breezyfin](https://github.com/botagas/Breezyfin) - Unofficial, performance-oriented Jellyfin client for LG webOS TVs. Offers a remote-friendly TV interface.
 ![Stars](https://img.shields.io/github/stars/botagas/Breezyfin?style=flat-square)
-
 
 - [OcenFin](https://github.com/seluce/OcenFin) - Lightweight Jellyfin client built with Svelte for TV performance. Developed with heavy AI assistance, according to its FAQ.
 ![Stars](https://img.shields.io/github/stars/seluce/OcenFin?style=flat-square)
@@ -125,6 +121,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [aurora-tv](https://github.com/GuiDev1994/aurora-tv) - Unofficial fork of Moonlight TV for LG webOS (C1–C5 and compatible sets), focused on high-quality streaming on OLED TVs with a remote- and gamepad-friendly UI.
 ![Stars](https://img.shields.io/github/stars/GuiDev1994/aurora-tv?style=flat-square)
 
+- [StashWebOS](https://github.com/pustal/StashWebOS) - An unofficial Stash client for LG webOS TVs, made for the remote and careful with the TV's small storage.
+![Stars](https://img.shields.io/github/stars/pustal/StashWebOS?style=flat-square)
+
 ## Games and game streaming
 
 - [RetroArch](https://repo.webosbrew.org/apps/com.retroarch.webos/) - Libretro emulation frontend. It may need the [webOS 64-bit bridge](https://repo.webosbrew.org/apps/org.webosbrew.bridge-64to32/), so check the current instructions for your TV.
@@ -151,6 +150,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 
 - [gfn-webos](https://github.com/duffpl/gfn-webos) - Unofficial native GeForce NOW client for LG webOS TVs, built on OpenNOW.
 ![Stars](https://img.shields.io/github/stars/duffpl/gfn-webos?style=flat-square)
+
+- [SonicWebMania](https://github.com/pustal/SonicWebMania) - Sonic Mania for LG webOS TVs. Requires the user to own the game to provide the assets.
+![Stars](https://img.shields.io/github/stars/pustal/SonicWebMania?style=flat-square)
 
 ## Ambilight and lighting
 
