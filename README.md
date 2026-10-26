@@ -251,6 +251,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [rivera-interface-beta](https://github.com/mexicanninja250/rivera-interface-beta) - An Apple TV-inspired Home launcher for rooted LG webOS 10 TVs, built on Glasshouse. Scenic backgrounds, app previews, weather, and a smoother entrance.
 ![Stars](https://img.shields.io/github/stars/mexicanninja250/rivera-interface-beta?style=flat-square)
 
+- [CleanYourTV for LG webOS](https://github.com/lasharor/cleanyourtv-WebOS) - A home screen that replaces LG's Home on rooted LG webOS TVs; requires root and the Homebrew Channel. Reported working on webOS 5, 6 and 23 to 26
+![Stars](https://img.shields.io/github/stars/lasharor/cleanyourtv-WebOS?style=flat-square)
+
 ## Rooting and recovery
 
 > ⚠️ **Caution:** Rooting methods are firmware-specific and may be patched. Verify current compatibility and recovery instructions before proceeding, and read [SAFETY.md](SAFETY.md) first.
