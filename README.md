@@ -269,6 +269,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
  
 - [webOS Terminal](https://repo.webosbrew.org/apps/com.github.gprot42.webosterminal/) - Native terminal for rooted TVs. Requires Homebrew Channel.
 
+- [own-your-glass](https://github.com/JulioFerrero/own-your-glass) - Harden a rooted LG webOS TV — kill the microphones, stop the screen-capture leak, block the ad/telemetry endpoints, and debloat the services you never asked for.
+![Stars](https://img.shields.io/github/stars/JulioFerrero/own-your-glass?style=flat-square)
+
 
 ## Remote control
 
