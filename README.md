@@ -53,18 +53,14 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [Jellyfin](https://github.com/jellyfin/jellyfin-webos) - webOS client for Jellyfin Server.
 ![Stars](https://img.shields.io/github/stars/jellyfin/jellyfin-webos?style=flat-square)
 
-
 - [Moonfin](https://github.com/Moonfin-Client/Smart-TV) - Enhanced Jellyfin client for LG webOS and Samsung Tizen TVs. Built with the Enact/Sandstone framework.
 ![Stars](https://img.shields.io/github/stars/Moonfin-Client/Smart-TV?style=flat-square)
-
 
 - [Litefin](https://github.com/MoazSalem/litefin) - High-performance Jellyfin client for LG webOS and Samsung Tizen TVs. Designed to run well even on older hardware.
 ![Stars](https://img.shields.io/github/stars/MoazSalem/litefin?style=flat-square)
 
-
 - [Breezyfin](https://github.com/botagas/Breezyfin) - Unofficial, performance-oriented Jellyfin client for LG webOS TVs. Offers a remote-friendly TV interface.
 ![Stars](https://img.shields.io/github/stars/botagas/Breezyfin?style=flat-square)
-
 
 - [OcenFin](https://github.com/seluce/OcenFin) - Lightweight Jellyfin client built with Svelte for TV performance. Developed with heavy AI assistance, according to its FAQ.
 ![Stars](https://img.shields.io/github/stars/seluce/OcenFin?style=flat-square)
@@ -125,6 +121,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [aurora-tv](https://github.com/GuiDev1994/aurora-tv) - Unofficial fork of Moonlight TV for LG webOS (C1–C5 and compatible sets), focused on high-quality streaming on OLED TVs with a remote- and gamepad-friendly UI.
 ![Stars](https://img.shields.io/github/stars/GuiDev1994/aurora-tv?style=flat-square)
 
+- [StashWebOS](https://github.com/pustal/StashWebOS) - An unofficial Stash client for LG webOS TVs, made for the remote and careful with the TV's small storage.
+![Stars](https://img.shields.io/github/stars/pustal/StashWebOS?style=flat-square)
+
 ## Games and game streaming
 
 - [RetroArch](https://repo.webosbrew.org/apps/com.retroarch.webos/) - Libretro emulation frontend. It may need the [webOS 64-bit bridge](https://repo.webosbrew.org/apps/org.webosbrew.bridge-64to32/), so check the current instructions for your TV.
@@ -152,16 +151,10 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [gfn-webos](https://github.com/duffpl/gfn-webos) - Unofficial native GeForce NOW client for LG webOS TVs, built on OpenNOW.
 ![Stars](https://img.shields.io/github/stars/duffpl/gfn-webos?style=flat-square)
 
-- [Hearth](https://github.com/rudra-avatar/Hearth) - A customizable home screen with a clock, weather, wallpapers, and app/input rows, designed to support older webOS versions as well as newer ones. Some integration features require root access.
-- [Glasshouse](https://github.com/rorygallagher2024/glasshouse) - A rooted-TV dashboard combining home-screen features, privacy controls, app management, debloating, and custom screensavers. ([Shared by u/Nutcasey](https://www.reddit.com/user/Nutcasey/))
-- [Free My TV](https://github.com/simbasjungles/free-my-tv) - A community project for customizing the webOS TV experience. ([Shared by u/TopdeckIsSkill](https://www.reddit.com/user/TopdeckIsSkill/))
-- [LG Luma](https://github.com/ecklf/lg-luma) - An alternative home-screen project for LG TVs. ([Shared by u/TopdeckIsSkill](https://www.reddit.com/user/TopdeckIsSkill/))
-- [Lumen webOS fork](https://github.com/braunglasrakete/lumen-webos) - A community fork of Lumen with changes to its dock and configurable interface features. ([Shared by u/Babada-Boopey929](https://www.reddit.com/user/Babada-Boopey929/))
-- [OpenLauncher](https://github.com/Shantil-K/OpenLauncher) - A customizable launcher with folders, video wallpapers, widgets, and remote-friendly navigation; requires webOS 6 or newer and elevated trust or root for some features.
-- [webOS Custom Home](https://github.com/zzeppieri/webos-custom-home) - An ad-free custom home screen for rooted LG webOS TVs with app and input discovery, widgets, and startup options.
-- [Custom Home Screen for LGTVs](https://github.com/ipatek420/Lumen-Launcher) - An ad-free custom home screen for LG TVs. ([Shared by @king_davion1 on X](https://x.com/king_davion1/status/2114383778525200589))
-- [webOS Homebar](https://github.com/rawinek/webos-homebar) - Homebar: the home screen as a bar over the picture, not a full-screen menu, for rooted LG webOS TVs. ([Shared by u/rawinek on Reddit](https://www.reddit.com/r/webos/s/0jwThGupPO))
-- [CleanYourTV for LG webOS](https://github.com/lasharor/cleanyourtv-WebOS) - A home screen that replaces LG's Home on rooted LG webOS TVs; requires root and the Homebrew Channel. Reported working on webOS 5, 6 and 23 to 26
+- [SonicWebMania](https://github.com/pustal/SonicWebMania) - Sonic Mania for LG webOS TVs. Requires the user to own the game to provide the assets.
+![Stars](https://img.shields.io/github/stars/pustal/SonicWebMania?style=flat-square)
+
+## Ambilight and lighting
 
 - [PicCap](https://github.com/TBSniller/piccap) - Ambilight sender app that works with compatible Hyperion setups.
 ![Stars](https://img.shields.io/github/stars/TBSniller/piccap?style=flat-square)
@@ -258,6 +251,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [rivera-interface-beta](https://github.com/mexicanninja250/rivera-interface-beta) - An Apple TV-inspired Home launcher for rooted LG webOS 10 TVs, built on Glasshouse. Scenic backgrounds, app previews, weather, and a smoother entrance.
 ![Stars](https://img.shields.io/github/stars/mexicanninja250/rivera-interface-beta?style=flat-square)
 
+- [CleanYourTV for LG webOS](https://github.com/lasharor/cleanyourtv-WebOS) - A home screen that replaces LG's Home on rooted LG webOS TVs; requires root and the Homebrew Channel. Reported working on webOS 5, 6 and 23 to 26
+![Stars](https://img.shields.io/github/stars/lasharor/cleanyourtv-WebOS?style=flat-square)
+
 ## Rooting and recovery
 
 > ⚠️ **Caution:** Rooting methods are firmware-specific and may be patched. Verify current compatibility and recovery instructions before proceeding, and read [SAFETY.md](SAFETY.md) first.
@@ -277,6 +273,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 ![Stars](https://img.shields.io/github/stars/azoffshowy/dangbro?style=flat-square)
  
 - [webOS Terminal](https://repo.webosbrew.org/apps/com.github.gprot42.webosterminal/) - Native terminal for rooted TVs. Requires Homebrew Channel.
+
+- [own-your-glass](https://github.com/JulioFerrero/own-your-glass) - Harden a rooted LG webOS TV — kill the microphones, stop the screen-capture leak, block the ad/telemetry endpoints, and debloat the services you never asked for.
+![Stars](https://img.shields.io/github/stars/JulioFerrero/own-your-glass?style=flat-square)
 
 
 ## Remote control
