@@ -26,11 +26,17 @@ This list is a **curation, not a collection**. Add only resources that are genui
 
 Use a Markdown list entry with a title-cased project name, a dash, and a description that starts with an uppercase letter and ends with a period.
 
+### If your project is based on Github repo, use this entry format
+
 ```md
-- [Project Name](https://example.com) - A concise description of what the project does.
+- [Project Name](https://github.com/<your-user-name>/<your-repo-name>) - A concise description of what the project does. ![Stars](https://img.shields.io/github/stars/<your-user-name>/<your-repo-name>?style=flat-square)
 ```
 
-When relevant, add a source attribution link after the description. Keep the formatting consistent with existing entries.
+### For non-GitHub resources, use the appropriate canonical project or documentation link and omit the Stars badge as below.
+
+```md
+- [Project Name](https://github.com/<your-user-name>/<your-repo-name>) - A concise description of what the project does.
+```
 
 ## Pull request checklist
 
@@ -38,6 +44,7 @@ When relevant, add a source attribution link after the description. Keep the for
 - [ ] I checked the link and the project's documentation.
 - [ ] The resource is not a duplicate.
 - [ ] The description is factual, concise, starts with an uppercase letter, and ends with a period.
+- [ ] A GitHub repository entry includes a Stars badge with the correct owner and repository name.
 - [ ] The entry is in the most appropriate category.
 - [ ] Compatibility and root requirements are only stated when supported by evidence.
 - [ ] Attribution is accurate and does not imply that the person who shared the link created the project.

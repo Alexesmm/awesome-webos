@@ -2,102 +2,310 @@
 
 > Curated applications, launchers, homebrew tools, and development resources for webOS TVs.
 
+> ⚠️ **Before you install anything:** Most tools on this list are unofficial community projects. Read [SAFETY.md](SAFETY.md) first, because some of them require Developer Mode or root access and can affect your TV's security, stability, or support status.
+
+> 🌱 All contributions and PR's are welcome! You can support this repo by giving a star, too! ⭐
 ## Contents
 
 - [Getting started](#getting-started)
 - [Apps](#apps)
-  - [Media and streaming](#media-and-streaming)
-  - [Games and game streaming](#games-and-game-streaming)
-  - [TV utilities](#tv-utilities)
-  - [Launchers and Home Screens](#launchers-and-home-screens)
-  - [Rooting and Recovery](#rooting-and-recovery)
-  - [Ambilight and Lighting](#ambilight-and-lighting)
-  - [Remote Control](#remote-control)
-  - [Community](#community)
+    - [Media and streaming](#media-and-streaming)
+    - [Games and game streaming](#games-and-game-streaming)
+    - [Ambilight and lighting](#ambilight-and-lighting)
+    - [Screensavers](#screensavers)
+    - [TV utilities](#tv-utilities)
+    - [Privacy and debloating](#privacy-and-debloating)
+    - [Launchers and home screens](#launchers-and-home-screens)
+    - [Rooting and recovery](#rooting-and-recovery)
+    - [Remote control](#remote-control)
+    - [Community](#community)
 
 ## Getting started
 
-- [webOS Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel) - An unofficial homebrew app catalog and package-management tool for webOS TVs.
-- [webOS Device Manager](https://github.com/webosbrew/dev-manager-desktop) - A desktop application for managing webOS devices and Developer Mode.
+### What is webOS?
 
-## Apps
+webOS is a Linux-based operating system that runs apps built with web technologies. LG acquired it from HP in 2013 and uses it as the platform for its smart TVs. See [webOS on Wikipedia](https://en.wikipedia.org/wiki/WebOS) for the background.
 
-### Media and streaming
+All LG TVs released from 2015 onward, plus some 2014 models, run webOS. A few third-party brands also use it. Features, supported apps, and available tools depend on your TV's model year and webOS version, so check your exact model before trying anything on this list.
 
-- [Kodi](https://repo.webosbrew.org/apps/org.xbmc.kodi/) - Open-source media player and entertainment hub; the catalog lists webOS 4.0 or later as a requirement.
-- [Jellyfin for webOS](https://repo.webosbrew.org/apps/org.jellyfin.webos/) - webOS client for connecting to a Jellyfin Server.
-- [Moonfin](https://repo.webosbrew.org/apps/org.moonfin.webos/) - Enhanced Jellyfin client for LG Smart TVs.
-- [Litefin](https://repo.webosbrew.org/apps/org.litefin.app/) - Native Jellyfin client for webOS.
-- [Breezyfin](https://repo.webosbrew.org/apps/com.breezyfin.app/) - Unofficial, performance-oriented Jellyfin client.
-- [OcenFin](https://repo.webosbrew.org/apps/com.ocenfin.app/) - Lightweight Jellyfin client with a minimalist interface.
-- [PlxNative](https://repo.webosbrew.org/apps/com.beb.plxnative/) - Unofficial native Plex client; not affiliated with Plex.
-- [YouTube AdFree](https://repo.webosbrew.org/apps/youtube.leanback.v4/) - Community YouTube TV app with extended functionality.
+### Official resources
+
+- [webOS TV Developer](https://webostv.developer.lge.com/) - LG's official developer portal with documentation, SDK tools, and guides for building webOS TV apps.
+- [Developer Mode app guide](https://webostv.developer.lge.com/develop/getting-started/developer-mode-app) - Official instructions for installing and using the Developer Mode app to install, debug, and test apps on your TV.
+- [LG Content Store](https://us.lgappstv.com/) - The official app store on your TV, where you can find the Developer Mode app by searching for "Developer Mode".
+
+To use the official Developer Mode, you need a free LG Developer account and the Developer Mode app installed on your TV. The older webOS IDE is no longer supported, so LG now recommends the webOS TV CLI and the webOS TV extension for VS Code.
+
+### Community resources
+
+- [webOS Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel) - Unofficial app catalog and package manager for LG webOS TVs. ![Stars](https://img.shields.io/github/stars/webosbrew/webos-homebrew-channel?style=flat-square)
+
+
+- [webOS Device Manager](https://github.com/webosbrew/dev-manager-desktop) - Desktop app for managing webOS devices and Developer Mode. ![Stars](https://img.shields.io/github/stars/webosbrew/dev-manager-desktop?style=flat-square)
+
+- [Homebrew Channel Updater](https://repo.webosbrew.org/apps/org.webosbrew.safeupdate/) - Keeps the Homebrew Channel up to date.
+
+
+## Media and streaming
+
+- [Kodi](https://repo.webosbrew.org/apps/org.xbmc.kodi/) - Open-source media player and entertainment hub. The catalog lists webOS 4.0 or later as a requirement.
+
+- [Jellyfin](https://github.com/jellyfin/jellyfin-webos) - webOS client for Jellyfin Server.
+![Stars](https://img.shields.io/github/stars/jellyfin/jellyfin-webos?style=flat-square)
+
+
+- [Moonfin](https://github.com/Moonfin-Client/Smart-TV) - Enhanced Jellyfin client for LG webOS and Samsung Tizen TVs. Built with the Enact/Sandstone framework.
+![Stars](https://img.shields.io/github/stars/Moonfin-Client/Smart-TV?style=flat-square)
+
+
+- [Litefin](https://github.com/MoazSalem/litefin) - High-performance Jellyfin client for LG webOS and Samsung Tizen TVs. Designed to run well even on older hardware.
+![Stars](https://img.shields.io/github/stars/MoazSalem/litefin?style=flat-square)
+
+
+- [Breezyfin](https://github.com/botagas/Breezyfin) - Unofficial, performance-oriented Jellyfin client for LG webOS TVs. Offers a remote-friendly TV interface.
+![Stars](https://img.shields.io/github/stars/botagas/Breezyfin?style=flat-square)
+
+
+- [OcenFin](https://github.com/seluce/OcenFin) - Lightweight Jellyfin client built with Svelte for TV performance. Developed with heavy AI assistance, according to its FAQ.
+![Stars](https://img.shields.io/github/stars/seluce/OcenFin?style=flat-square)
+
+- [PlxNative](https://repo.webosbrew.org/apps/com.beb.plxnative/) - Unofficial native Plex client, not affiliated with Plex.
+
+- [Immich](https://repo.webosbrew.org/apps/com.immich.webos/) - webOS client for the Immich photo server.
+
+- [Immich TV](https://repo.webosbrew.org/apps/com.seeky91.immichtv/) - Alternative TV-oriented Immich client.
+
+- [Gallery3D](https://repo.webosbrew.org/apps/me.mariotaku.gallery3d/) - Photo gallery app for webOS.
+
+- [YouTube AdFree](https://github.com/webosbrew/youtube-webos) - YouTube TV app with ad blocking and SponsorBlock integration. Uninstall the official YouTube app before installing it.
+![Stars](https://img.shields.io/github/stars/webosbrew/youtube-webos?style=flat-square)
+
+- [youtube-webos](https://github.com/NicholasBly/youtube-webos) - Unofficial YouTube app for webOS without ads.
+![Stars](https://img.shields.io/github/stars/NicholasBly/youtube-webos?style=flat-square)
+
+- [youtube-webos-fork](https://github.com/foxi69/youtube-webos) - Another fork of unofficial YouTube app for webOS without ads.
+![Stars](https://img.shields.io/github/stars/foxi69/youtube-webos?style=flat-square)
+
+- [Twitch AdFree](https://repo.webosbrew.org/apps/twitch.adamffdev.v1/) - Twitch client for webOS TVs.
+
 - [SmartTwitchWebOSTV](https://repo.webosbrew.org/apps/com.tbsniller.smarttwitchwebostv/) - Twitch client with a TV-focused experience.
-- [Subsonic Player](https://repo.webosbrew.org/apps/com.subsonic.player/) - Web-based music player for webOS.
-- [Nuvio Native Legacy](https://github.com/iqui27/nuvio-native-legacy) - A native media application project for webOS. ([Shared by u/weriksos](https://www.reddit.com/user/weriksos/))
-- [Bili webOS](https://github.com/asdf17128/bili-webos) - An open-source Bilibili client for LG webOS TVs, with video playback and community-oriented features.
-- [stremcompat](https://github.com/Alexesmm/stremcompat-lg-webos) - Unofficial Stremio compatibility client for older ARMv7 LG webOS 3.x and 4.x TVs.
 
-### Games and game streaming
+- [Crunchyroll](https://repo.webosbrew.org/apps/com.crunchyroll.webos/) - Crunchyroll client for webOS.
 
-- [RetroArch](https://repo.webosbrew.org/apps/com.retroarch.webos/) - Libretro emulation frontend. The catalog also lists a [webOS 64-bit bridge](https://repo.webosbrew.org/apps/org.webosbrew.bridge-64to32/); check the current RetroArch and bridge instructions to confirm whether the bridge is needed for your TV and build.
-- [Moonlight](https://repo.webosbrew.org/apps/com.limelight.webos/) - Open-source NVIDIA GameStream client for streaming games to a webOS TV; supports up to four controllers according to its catalog listing.
+- [Crunchyroll Stream](https://repo.webosbrew.org/apps/com.crunchyroll.stream.app/) - Another Crunchyroll client for webOS.
+
+- [BiliTV](https://repo.webosbrew.org/apps/com.biliwebos.app/) - Bilibili client for webOS TVs.
+
+- [Bili webOS](https://github.com/asdf17128/bili-webos) - Open-source Bilibili client for LG webOS TVs.
+![Stars](https://img.shields.io/github/stars/asdf17128/bili-webos?style=flat-square)
+
+- [Qoder IPTV Player](https://repo.webosbrew.org/apps/com.qoder.iptv/) - IPTV player for webOS.
+
+- [WebOS TVHeadend Client](https://repo.webosbrew.org/apps/com.willinux.tvh.app/) - Client for watching live TV from a TVHeadend server.
+
+- [Subsonic Player](https://repo.webosbrew.org/apps/com.subsonic.player/) - Web-based music player for Subsonic-compatible servers.
+
+- [Sendspin Cinema](https://repo.webosbrew.org/apps/com.sendspin.cinema/) - Multimedia app available through the Homebrew Channel.
+
+- [streamkatze](https://repo.webosbrew.org/apps/org.webosbrew.streamkatze/) - Streaming app available through the Homebrew Channel.
+
+- [DecoTV](https://repo.webosbrew.org/apps/com.cheerchen.decotv/) - Media app available through the Homebrew Channel.
+
+- [Nuvio Native Legacy](https://github.com/iqui27/nuvio-native-legacy) - Native media application project for webOS.
+![Stars](https://img.shields.io/github/stars/iqui27/nuvio-native-legacy?style=flat-square)
+
+- [Decoder bench](https://repo.webosbrew.org/apps/io.github.beatcracker.decoderbench/) - Tool for testing the TV's video decoding capabilities.
+
+- [native-jelly](https://github.com/sostk/native-jelly) - A native Jellyfin client adapted from PLX Native, with a modern TV-focused interface and Jellyfin support.
+![Stars](https://img.shields.io/github/stars/sostk/native-jelly?style=flat-square)
+
+- [CSWeb TV](https://github.com/sostk/cloudstream-webos-native) - A native LG webOS TV app that runs unmodified CloudStream .cs3 extensions on the TV.
+![Stars](https://img.shields.io/github/stars/sostk/cloudstream-webos-native?style=flat-square)
+
+- [aurora-tv](https://github.com/GuiDev1994/aurora-tv) - Unofficial fork of Moonlight TV for LG webOS (C1–C5 and compatible sets), focused on high-quality streaming on OLED TVs with a remote- and gamepad-friendly UI.
+![Stars](https://img.shields.io/github/stars/GuiDev1994/aurora-tv?style=flat-square)
+
+## Games and game streaming
+
+- [RetroArch](https://repo.webosbrew.org/apps/com.retroarch.webos/) - Libretro emulation frontend. It may need the [webOS 64-bit bridge](https://repo.webosbrew.org/apps/org.webosbrew.bridge-64to32/), so check the current instructions for your TV.
+
+- [Moonlight TV](https://github.com/mariotaku/moonlight-tv) - Lightweight NVIDIA GameStream client for streaming PC games to your TV. Supports up to four controllers.
+![Stars](https://img.shields.io/github/stars/mariotaku/moonlight-tv?style=flat-square)
+
+- [IHSplay](https://repo.webosbrew.org/apps/org.mariotaku.ihsplay/) - In-home game streaming client for webOS.
+
+- [Punktfunk](https://repo.webosbrew.org/apps/io.unom.punktfunk.client-webos/) - Game-streaming client listed under games in the Homebrew catalog.
+
+- [PocketVibe](https://github.com/tolgakurtuluss/pocketvibe-webos) - webOS port of [PocketVibe](https://github.com/cobanov/pocketvibe), a launcher and collection of Three.js games.
+![Stars](https://img.shields.io/github/stars/tolgakurtuluss/pocketvibe-webos?style=flat-square)
+
+- [OpenTTD](https://repo.webosbrew.org/apps/com.leondrolio.x.openttd/) - Open-source transport simulation game.
+
+- [Chocolate Doom Demo](https://repo.webosbrew.org/apps/org.chocolate-doom.demo/) - Demo build of the classic Doom source port.
+
+- [3D Pinball – Space Cadet](https://repo.webosbrew.org/apps/com.github.k4zmu2a.space-cadet-pinball/) - Port of the classic Windows pinball game.
+
+- [2048 Port for WebOS](https://repo.webosbrew.org/apps/com.gabrielecirulli.app2048.webos/) - Port of the 2048 puzzle game.
+
 - [Fruit Ninja](https://repo.webosbrew.org/apps/com.halfbrick.fruitninja/) - Unofficial webOS version of the arcade game.
-- [PocketVibe for webOS](https://github.com/tolgakurtuluss/pocketvibe-webos) - Community webOS port of [PocketVibe](https://github.com/cobanov/pocketvibe), a launcher and collection of Three.js games. See the port's README for current features, installation steps, and compatibility notes.
 
-### TV utilities
+- [gfn-webos](https://github.com/duffpl/gfn-webos) - Unofficial native GeForce NOW client for LG webOS TVs, built on OpenNOW.
+![Stars](https://img.shields.io/github/stars/duffpl/gfn-webos?style=flat-square)
 
-- [VPN Client](https://repo.webosbrew.org/apps/com.sk.app.lgtv-vpn/) - OpenVPN client with a control interface for webOS.
-- [Aerial Screensaver](https://repo.webosbrew.org/apps/org.aabytt.webos.custom-screensaver-aerial/) - Custom screensaver for webOS.
+## Ambilight and lighting
 
-### Launchers and Home Screens
+- [PicCap](https://github.com/TBSniller/piccap) - Ambilight sender app that works with compatible Hyperion setups.
+![Stars](https://img.shields.io/github/stars/TBSniller/piccap?style=flat-square)
 
-- [Hearth](https://github.com/rudra-avatar/Hearth) - A customizable home screen with a clock, weather, wallpapers, and app/input rows, designed to support older webOS versions as well as newer ones. Some integration features require root access.
-- [Glasshouse](https://github.com/rorygallagher2024/glasshouse) - A rooted-TV dashboard combining home-screen features, privacy controls, app management, debloating, and custom screensavers. ([Shared by u/Nutcasey](https://www.reddit.com/user/Nutcasey/))
-- [Free My TV](https://github.com/simbasjungles/free-my-tv) - A community project for customizing the webOS TV experience. ([Shared by u/TopdeckIsSkill](https://www.reddit.com/user/TopdeckIsSkill/))
-- [LG Luma](https://github.com/ecklf/lg-luma) - An alternative home-screen project for LG TVs. ([Shared by u/TopdeckIsSkill](https://www.reddit.com/user/TopdeckIsSkill/))
-- [Lumen webOS fork](https://github.com/braunglasrakete/lumen-webos) - A community fork of Lumen with changes to its dock and configurable interface features. ([Shared by u/Babada-Boopey929](https://www.reddit.com/user/Babada-Boopey929/))
-- [OpenLauncher](https://github.com/Shantil-K/OpenLauncher) - A customizable launcher with folders, video wallpapers, widgets, and remote-friendly navigation; requires webOS 6 or newer and elevated trust or root for some features.
-- [webOS Custom Home](https://github.com/zzeppieri/webos-custom-home) - An ad-free custom home screen for rooted LG webOS TVs with app and input discovery, widgets, and startup options.
-- [Custom Home Screen for LGTVs](https://github.com/ipatek420/Lumen-Launcher) - An ad-free custom home screen for LG TVs. ([Shared by @king_davion1 on X](https://x.com/king_davion1/status/2114383778525200589))
-- [webOS Homebar](https://github.com/rawinek/webos-homebar) - A home bar that overlays the current picture instead of opening a full-screen menu, for rooted LG webOS TVs. ([Shared by u/rawinek on Reddit](https://www.reddit.com/r/webos/s/0jwThGupPO))
+- [Piccap On/Off Remote](https://repo.webosbrew.org/apps/ui30/) - Remote toggle for PicCap.
 
-### Rooting and Recovery
-
-- [webOS Terminal](https://repo.webosbrew.org/apps/com.github.gprot42.webosterminal/) - Native terminal for rooted LG webOS TVs; requires a rooted TV and Homebrew Channel.
-- [RootMyTV](https://github.com/RootMyTV/RootMyTV.github.io) - A user-friendly rooting and jailbreaking project for supported LG webOS TVs; compatibility depends on the exact model and firmware.
-- [DejaVuln Autoroot](https://github.com/throwaway96/dejavuln-autoroot) - A community tool for supported webOS TVs that automates a DejaVuln-based rooting and Homebrew Channel setup.
-- [Faultmanager Autoroot](https://github.com/throwaway96/faultmanager-autoroot) - A rooting and Homebrew Channel setup tool for certain webOS 4.0 and newer TVs.
-- [DangBro](https://github.com/azoffshowy/dangbro) - webOS SSAP tooling for working with the webOS TV protocol.
-- [Can I Root My TV?](https://cani.rootmy.tv/) - A compatibility resource for checking whether supported webOS TV models and firmware can be rooted.
-- [LG TV Blocklist](https://github.com/furkan-bayrak/lg-tv-blocklist) - DNS blocklists for filtering LG webOS TV telemetry, advertising, and phone-home traffic, with different filtering tiers.
-- [Glasshouse network-filtering discussion](https://github.com/rorygallagher2024/glasshouse/discussions/932) - A discussion of network-level filtering and reducing unwanted connections from webOS TVs. ([Shared by u/Kidilin](https://www.reddit.com/user/Kidilin/))
-
-> **Caution:** Rooting methods are firmware-specific and may be patched. Verify current compatibility and recovery instructions before proceeding.
-
-### Ambilight and Lighting
-
-- [PicCap](https://github.com/TBSniller/piccap) - An Ambilight sender app for LG webOS TVs that works with compatible Hyperion setups.
-- [How to Install and Set Up Ambilight on LG webOS](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS) - A setup guide for PicCap and Hyperion/HyperHDR lighting systems.
 - [HyperHDR](https://repo.webosbrew.org/apps/org.webosbrew.hyperhdr.loader/) - Ambient-lighting service and frontend, intended to be used with PicCap.
 
-### Remote Control
+- [Hyperion.NG](https://repo.webosbrew.org/apps/org.webosbrew.hyperion.ng.loader/) - Ambient-lighting service that runs on the TV and works with PicCap.
 
-- [LG Input Hook](https://github.com/Simon34545/lginputhook) - A tool for remapping remote-control buttons on supported LG webOS TVs.
-- [LG Remote](https://github.com/heroslender/lg-remote) - An Android app for controlling LG TVs over webOS network APIs.
+- [lg-hue-sync](https://github.com/adeze/lg-hue-sync) - Native LG webOS ambient sync for Philips Hue Entertainment and Nanoleaf 4D.
+![Stars](https://img.shields.io/github/stars/adeze/lg-hue-sync?style=flat-square)
 
-### Community
 
-- [r/webos](https://www.reddit.com/r/webos/) - A community for webOS discussions, recommendations, and troubleshooting.
-- [LG TV GitHub Stars list](https://github.com/stars/m1804-code/lists/lg-tv) - A community-curated GitHub list of LG TV-related repositories.
+## Screensavers
+
+- [Custom Screensaver](https://repo.webosbrew.org/apps/org.webosbrew.custom-screensaver/) - Lets you use your own screensaver on rooted TVs.
+
+- [Aerial Screensaver](https://repo.webosbrew.org/apps/org.aabytt.webos.custom-screensaver-aerial/) - Aerial-style custom screensaver for webOS.
+
+- [Aerial webOS screensaver](https://repo.webosbrew.org/apps/org.rchalaaa.webos.custom-screensaver/) - Another aerial-style custom screensaver.
+
+- [Idlegif](https://repo.webosbrew.org/apps/org.oted.idlegif/) - Idle-time screensaver app listed in the Homebrew catalog.
+
+## TV utilities
+
+- [VPN Client](https://repo.webosbrew.org/apps/com.sk.app.lgtv-vpn/) - OpenVPN client with a control interface for webOS.
+
+- [WireGuard VPN](https://repo.webosbrew.org/apps/com.github.cfernande1470.wireguard/) - WireGuard VPN client for webOS.
+
+- [VNCServer](https://repo.webosbrew.org/apps/org.webosbrew.vncserver/) - VNC server for viewing and controlling the TV remotely.
+
+- [Open Service Menu](https://repo.webosbrew.org/apps/com.open.hidden.menu/) - Opens the TV's hidden service menu.
+
+- [Sound Mode Fix](https://repo.webosbrew.org/apps/eu.depau.webos.soundmodefix/) - Fixes sound mode behavior on webOS TVs.
+
+- [Bluetooth Disabler](https://repo.webosbrew.org/apps/pl.krzywro.webos-bluetooth-disabler/) - Utility for disabling Bluetooth on the TV.
+
+- [AmazOff Patcher](https://repo.webosbrew.org/apps/com.amazoff.patcher/) - Patching utility available through the Homebrew Channel.
+
+- [CCCBib](https://repo.webosbrew.org/apps/org.webosbrew.cccbib/) - Homebrew Channel app maintained under the webosbrew organization.
+
+- [Auto Dev Token Refresh](https://repo.webosbrew.org/apps/com.pirate.refresh/) - Refreshes the Developer Mode token on the TV.
+
+- [dts_restore_plus](https://github.com/josippapez/dts_restore_plus) - Restore DTS audio playback (and add Matroska Dolby Vision support) on rooted LG webOS TVs, where LG deliberately removed DTS decoding in firmware.
+![Stars](https://img.shields.io/github/stars/josippapez/dts_restore_plus?style=flat-square)
+
+- [oscar-cam](https://github.com/larrysweb/oscar-cam) - A free, LAN-only camera grid for rooted LG webOS TVs. No account, no cloud, no telemetry. Camera credentials stay on the TV.
+![Stars](https://img.shields.io/github/stars/larrysweb/oscar-cam?style=flat-square)
+
+## Privacy and debloating
+
+> ⚠️ **Note:** Blocking updates, telemetry, or network traffic can break apps and TV features. See [SAFETY.md](SAFETY.md) before applying these tools.
+
+- [LG TV Blocklist](https://github.com/furkan-bayrak/lg-tv-blocklist) - DNS blocklists for filtering LG TV telemetry, ads, and phone-home traffic, with several filtering tiers.
+![Stars](https://img.shields.io/github/stars/furkan-bayrak/lg-tv-blocklist?style=flat-square)
+
+- [LG App Update Blocker](https://repo.webosbrew.org/apps/org.webosbrew.appupdateblocker/) - Prevents LG from automatically updating installed apps.
+
+- [Life's Good Without Spying](https://github.com/lewisdoesstuff/lifesgoodwithoutspying) - A webOS homebrew app that switches off the surveillance stack on rooted LG TVs: ad delivery, Automatic Content Recognition, and always-on voice capture.
+![Stars](https://img.shields.io/github/stars/lewisdoesstuff/lifesgoodwithoutspying?style=flat-square)
+
+
+## Launchers and home screens
+
+- [Glasshouse](https://github.com/rorygallagher2024/glasshouse) - Rooted-TV dashboard with a home screen, app management, debloating, ad blocking, and custom screensavers.
+![Stars](https://img.shields.io/github/stars/rorygallagher2024/glasshouse?style=flat-square)
+
+ 
+- [Hearth](https://github.com/rudra-avatar/Hearth) - Customizable home screen with a clock, weather, wallpapers, and app rows. Some features need root.
+![Stars](https://img.shields.io/github/stars/rudra-avatar/Hearth?style=flat-square)
+
+ 
+- [OpenLauncher](https://github.com/Shantil-K/OpenLauncher) - Launcher with folders, video wallpapers, and widgets. Requires webOS 6 or newer, and some features need root.
+![Stars](https://img.shields.io/github/stars/Shantil-K/OpenLauncher?style=flat-square)
+
+- [webOS Custom Home](https://github.com/zzeppieri/webos-custom-home) - Ad-free custom home screen for rooted TVs with app and input discovery and widgets.
+![Stars](https://img.shields.io/github/stars/zzeppieri/webos-custom-home?style=flat-square)
+
+ 
+- [LG Luma](https://github.com/ecklf/lg-luma) - Alternative home-screen project for LG TVs.
+![Stars](https://img.shields.io/github/stars/ecklf/lg-luma?style=flat-square)
+
+ 
+- [Free My TV](https://github.com/simbasjungles/free-my-tv) - A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.
+![Stars](https://img.shields.io/github/stars/simbasjungles/free-my-tv?style=flat-square)
+
+- [Lumen webOS fork](https://github.com/ammar027/lumen-webos) - Lumen: a tvOS-style, GPU-light home screen for rooted LG webOS TVs (patches on partridgeworks/webos-launcher)
+![Stars](https://img.shields.io/github/stars/ammar027/lumen-webos?style=flat-square)
+
+- [webos-homebar](https://github.com/rawinek/webos-homebar) - Homebar: the home screen as a bar over the picture, not a full-screen menu, for rooted LG webOS TVs.
+![Stars](https://img.shields.io/github/stars/rawinek/webos-homebar?style=flat-square)
+
+- [rivera-interface-beta](https://github.com/mexicanninja250/rivera-interface-beta) - An Apple TV-inspired Home launcher for rooted LG webOS 10 TVs, built on Glasshouse. Scenic backgrounds, app previews, weather, and a smoother entrance.
+![Stars](https://img.shields.io/github/stars/mexicanninja250/rivera-interface-beta?style=flat-square)
+
+## Rooting and recovery
+
+> ⚠️ **Caution:** Rooting methods are firmware-specific and may be patched. Verify current compatibility and recovery instructions before proceeding, and read [SAFETY.md](SAFETY.md) first.
+
+- [Can I Root My TV?](https://cani.rootmy.tv/) - Checks whether your TV model and firmware can be rooted.
+
+- [RootMyTV](https://github.com/RootMyTV/RootMyTV.github.io) - Rooting project for supported LG webOS TVs. Compatibility depends on model and firmware.
+![Stars](https://img.shields.io/github/stars/RootMyTV/RootMyTV.github.io?style=flat-square)
+
+- [DejaVuln Autoroot](https://github.com/throwaway96/dejavuln-autoroot) - Automates DejaVuln-based rooting and Homebrew Channel setup on supported TVs.
+![Stars](https://img.shields.io/github/stars/throwaway96/dejavuln-autoroot?style=flat-square)
+
+- [Faultmanager Autoroot](https://github.com/throwaway96/faultmanager-autoroot) - Rooting and Homebrew Channel setup tool for certain webOS 4.0 and newer TVs.
+![Stars](https://img.shields.io/github/stars/throwaway96/faultmanager-autoroot?style=flat-square)
+ 
+- [DangBro](https://github.com/azoffshowy/dangbro) - SSAP tooling for working with the webOS TV protocol.
+![Stars](https://img.shields.io/github/stars/azoffshowy/dangbro?style=flat-square)
+ 
+- [webOS Terminal](https://repo.webosbrew.org/apps/com.github.gprot42.webosterminal/) - Native terminal for rooted TVs. Requires Homebrew Channel.
+
+
+## Remote control
+
+- [LG Input Hook](https://github.com/Simon34545/lginputhook) - Remaps remote-control buttons on supported LG webOS TVs.
+![Stars](https://img.shields.io/github/stars/Simon34545/lginputhook?style=flat-square)
+
+ 
+- [LG Remote](https://github.com/heroslender/lg-remote) - Android app for controlling LG TVs over webOS network APIs.
+![Stars](https://img.shields.io/github/stars/heroslender/lg-remote?style=flat-square)
+
+ 
+## Community
+
 - [Original Reddit resource discussion](https://www.reddit.com/r/webos/s/LfDWRakWmp) - The discussion that inspired this list.
+
+- [r/webos](https://www.reddit.com/r/webos/) - Community for webOS discussions, recommendations, and troubleshooting.
+
+- [webOS Homebrew Project: Dev Mode guide](https://www.webosbrew.org/devmode) - Community walkthrough for enabling Developer Mode.
+
+- [webOS Homebrew Project: Rooting guide](https://www.webosbrew.org/rooting) - Community guide to rooting supported TVs.
+
+- [LG TV GitHub Stars list](https://github.com/stars/m1804-code/lists/lg-tv) - Community-curated list of LG TV-related repositories.
+
+- [How to Install and Set Up Ambilight on LG webOS](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS) - Setup guide for PicCap with Hyperion or HyperHDR.
+
+- [Glasshouse network-filtering discussion](https://github.com/rorygallagher2024/glasshouse/discussions/932) - Discussion about network-level filtering on webOS TVs.
+
+- [Guide about rooting your TV](https://tv.slada.sk/guides/rooting-guide) - Guide for rooting shared on "tv.slada.sk" website.
+
 
 ## Footnotes
 
-- Reddit usernames identify community members who shared links, not necessarily project authors or maintainers.
 - Compatibility, maintenance status, and root requirements can change. Check each project's documentation before installation.
+- Star counts are a rough popularity signal, not a measure of quality or safety.
 - Inclusion is not a security audit or an endorsement by project maintainers.
+- This list is an independent community resource and is not affiliated with LG Electronics.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing an addition. Safety and compatibility notes are in [SAFETY.md](SAFETY.md).
+Please read [CONTRIBUTING.md](https://github.com/tolgakurtuluss/awesome-webos/blob/main/CONTRIBUTING.md) before proposing an addition. Safety and compatibility notes are in [SAFETY.md](https://github.com/tolgakurtuluss/awesome-webos/blob/main/SAFETY.md).
