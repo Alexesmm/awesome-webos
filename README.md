@@ -71,6 +71,7 @@
 - [DangBro](https://github.com/azoffshowy/dangbro) - webOS SSAP tooling for working with the webOS TV protocol.
 - [Can I Root My TV?](https://cani.rootmy.tv/) - A compatibility resource for checking whether supported webOS TV models and firmware can be rooted.
 - [LG TV Blocklist](https://github.com/furkan-bayrak/lg-tv-blocklist) - DNS blocklists for filtering LG webOS TV telemetry, advertising, and phone-home traffic, with different filtering tiers.
+- [own-your-glass](https://github.com/JulioFerrero/own-your-glass) - A privacy-hardening toolkit and TV app for rooted LG webOS TVs that turns off the microphones and voice services, blocks LG's ad and telemetry servers with an on-device DNS sinkhole, and stops unwanted services; every change can be undone. Requires root and the Homebrew Channel.
 - [Glasshouse network-filtering discussion](https://github.com/rorygallagher2024/glasshouse/discussions/932) - A discussion of network-level filtering and reducing unwanted connections from webOS TVs. ([Shared by u/Kidilin](https://www.reddit.com/user/Kidilin/))
 
 > **Caution:** Rooting methods are firmware-specific and may be patched. Verify current compatibility and recovery instructions before proceeding.
