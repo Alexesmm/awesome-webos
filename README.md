@@ -259,6 +259,8 @@ To use the official Developer Mode, you need a free LG Developer account and the
 
 - [WiiOS](https://github.com/KaykCaputo/WiiOS-webOS) - Wii-inspired home screen launcher for LG webOS TVs. ![Stars](https://img.shields.io/github/stars/KaykCaputo/WiiOS-webOS?style=flat-square)
 
+- [webOS Console Home](https://github.com/testtrader1993/webos-console-home) - Console-style home screen with large tiles for HDMI inputs, settings and screen off, installed through Developer Mode without root. Tested on webOS 6.5. ![Stars](https://img.shields.io/github/stars/testtrader1993/webos-console-home?style=flat-square)
+
 ## Rooting and recovery
 
 > ⚠️ **Caution:** Rooting methods are firmware-specific and may be patched. Verify current compatibility and recovery instructions before proceeding, and read [SAFETY.md](SAFETY.md) first.
