@@ -68,7 +68,7 @@
 - [webOS Custom Home](https://github.com/zzeppieri/webos-custom-home) - An ad-free custom home screen for rooted LG webOS TVs with app and input discovery, widgets, and startup options.
 - [Custom Home Screen for LGTVs](https://github.com/ipatek420/Lumen-Launcher) - An ad-free custom home screen for LG TVs. ([Shared by @king_davion1 on X](https://x.com/king_davion1/status/2114383778525200589))
 - [webOS Homebar](https://github.com/rawinek/webos-homebar) - Homebar: the home screen as a bar over the picture, not a full-screen menu, for rooted LG webOS TVs. ([Shared by u/rawinek on Reddit](https://www.reddit.com/r/webos/s/0jwThGupPO))
-- [CleanYourTV for LG webOS](https://github.com/lasharor/cleanyourtv-WebOS) - A home screen that replaces LG's Home on rooted LG webOS TVs, with a dock, an app grid and themes, an Inputs list on the remote's Input key, optional blocking of LG's ad and telemetry services, and Live TV for M3U playlists; requires root and the Homebrew Channel. Reported working on webOS 5, 6 and 23 to 26 ([tested TVs](https://lasharor.github.io/cleanyourtv-WebOS/tested-tvs/)).
+- [CleanYourTV for LG webOS](https://github.com/lasharor/cleanyourtv-WebOS) - A home screen that replaces LG's Home on rooted LG webOS TVs; requires root and the Homebrew Channel. Reported working on webOS 5, 6 and 23 to 26
 
 ## Rooting and Recovery
 
