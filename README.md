@@ -124,6 +124,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [StashWebOS](https://github.com/pustal/StashWebOS) - An unofficial Stash client for LG webOS TVs, made for the remote and careful with the TV's small storage.
 ![Stars](https://img.shields.io/github/stars/pustal/StashWebOS?style=flat-square)
 
+- [StremCompat](https://github.com/Alexesmm/stremcompat-lg-webos) - Unofficial compatibility client for older ARMv7 LG TVs running webOS 3.x and 4.x; installs through Developer Mode without root access.
+![Stars](https://img.shields.io/github/stars/Alexesmm/stremcompat-lg-webos?style=flat-square)
+
 ## Games and game streaming
 
 - [RetroArch](https://repo.webosbrew.org/apps/com.retroarch.webos/) - Libretro emulation frontend. It may need the [webOS 64-bit bridge](https://repo.webosbrew.org/apps/org.webosbrew.bridge-64to32/), so check the current instructions for your TV.
