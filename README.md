@@ -296,6 +296,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [LG Input Hook](https://github.com/Simon34545/lginputhook) - Remaps remote-control buttons on supported LG webOS TVs.
 ![Stars](https://img.shields.io/github/stars/Simon34545/lginputhook?style=flat-square)
 
+- [Magic Mapper for webOS](https://github.com/afonsojramos/magic-mapper-webos) - TV-native interface for [Magic Mapper](https://github.com/andrewfraley/magic_mapper) that disables, remaps, or redirects LG Magic Remote buttons without editing JSON over SSH. Requires root and the Homebrew Channel. Tested on an LG C3 running webOS 25.
+![Stars](https://img.shields.io/github/stars/afonsojramos/magic-mapper-webos?style=flat-square)
+
  
 - [LG Remote](https://github.com/heroslender/lg-remote) - Android app for controlling LG TVs over webOS network APIs.
 ![Stars](https://img.shields.io/github/stars/heroslender/lg-remote?style=flat-square)
