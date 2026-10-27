@@ -157,6 +157,9 @@ To use the official Developer Mode, you need a free LG Developer account and the
 - [SonicWebMania](https://github.com/pustal/SonicWebMania) - Sonic Mania for LG webOS TVs. Requires the user to own the game to provide the assets.
 ![Stars](https://img.shields.io/github/stars/pustal/SonicWebMania?style=flat-square)
 
+- [Animal Crossing Port for WebOS TVs](https://github.com/pustal/Animal-Crossing-WebOS) - Animal Crossing (GameCube) for LG webOS TVs. Requires the user to own the game to provide the assets.
+  ![Stars](https://img.shields.io/github/stars/pustal/Animal-Crossing-WebOS?style=flat-square)
+
 ## Ambilight and lighting
 
 - [PicCap](https://github.com/TBSniller/piccap) - Ambilight sender app that works with compatible Hyperion setups.
