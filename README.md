@@ -159,6 +159,8 @@ To use the official Developer Mode, you need a free LG Developer account and the
 
 - [Animal Crossing Port for WebOS TVs](https://github.com/pustal/Animal-Crossing-WebOS) - Animal Crossing (GameCube) for LG webOS TVs. Requires the user to own the game to provide the assets.
   ![Stars](https://img.shields.io/github/stars/pustal/Animal-Crossing-WebOS?style=flat-square)
+- [Webmon](https://github.com/pustal/Webmon) - a Pokémon Gen1Recomp runner for WebOS. Root access and external USB drive highly recommended. Very important: read the README thoroughly.
+  ![Stars](https://img.shields.io/github/stars/pustal/Webmon?style=flat-square)
 
 ## Ambilight and lighting
 
