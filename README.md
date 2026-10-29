@@ -269,6 +269,8 @@ To use the official Developer Mode, you need a free LG Developer account and the
 
 - [webOS Console Home](https://github.com/testtrader1993/webos-console-home) - Console-style home screen with large tiles for HDMI inputs, settings and screen off, installed through Developer Mode without root. Tested on webOS 6.5. ![Stars](https://img.shields.io/github/stars/testtrader1993/webos-console-home?style=flat-square)
 
+- [Simple LG Launcher](https://github.com/fardroid/Simple-LG-launcher) - Quiet home screen with a clock, weather forecast, Google Calendar (iCal) agenda and a single app row over your own wallpaper, in 13 languages; a fork of Hearth. Full features and replacing LG Home need root and the Homebrew Channel; tested on webOS 25. ![Stars](https://img.shields.io/github/stars/fardroid/Simple-LG-launcher?style=flat-square)
+
 ## Rooting and recovery
 
 > ⚠️ **Caution:** Rooting methods are firmware-specific and may be patched. Verify current compatibility and recovery instructions before proceeding, and read [SAFETY.md](SAFETY.md) first.
